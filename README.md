@@ -92,5 +92,5 @@ tarea2/
 ```bash
 conda env create -f environment.yml
 conda activate introalaia
-jupyter notebook weather_classification.ipynb
+jupyter notebook tarea2.ipynb
 ```
