@@ -18,7 +18,7 @@ Es un problema de clasificación de imágenes multiclase, relevante como ejercic
 - **Fuente:** [Multi-class Weather Dataset](https://www.kaggle.com/datasets/pratik2901/multiclass-weather-dataset) (Kaggle).
 - **Tamaño original:** 1125 imágenes distribuidas en 4 clases (Cloudy: 300, Rain: 215, Shine: 253, Sunrise: 357).
 - **Tamaño final:** 1019 imágenes, tras eliminar 106 imágenes casi-duplicadas dentro de la misma clase (detectadas vía perceptual hashing), para evitar data leakage entre los splits de entrenamiento/validación/test.
-- **Estructura esperada** (no incluida en el repositorio por su peso; ver instrucciones de descarga más abajo):
+- **Estructura esperada** (no incluida en el repositorio por su peso, ver instrucciones de descarga más abajo):
 
 ```
 data/weather/
