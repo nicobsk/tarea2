@@ -94,3 +94,4 @@ conda env create -f environment.yml
 conda activate introalaia
 jupyter notebook tarea2.ipynb
 ```
+**Nota:** El número de duplicados detectados en la celda de EDA (0) corresponde a esta ejecución del notebook, realizada sobre el dataset que ya había sido depurado en una ejecución anterior. Los 106 duplicados mencionados en las conclusiones del EDA fueron detectados y eliminados en la corrida original sobre el dataset completo (1125 imágenes). Como esa limpieza ya quedó aplicada de forma permanente sobre los archivos, las corridas posteriores del notebook no vuelven a encontrarlos. Esto no afecta el desempeño ni los resultados finales reportados. :D
